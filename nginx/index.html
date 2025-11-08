@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NulClass Internship Projects – Task 02 & Task 03</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #e6edf3;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 850px;
+      margin: 60px auto;
+      background: #161b22;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.1);
+    }
+    h1 {
+      color: #00b894;
+      font-size: 2rem;
+    }
+    h2 {
+      color: #74b9ff;
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+    }
+    h3 {
+      color: #fdcb6e;
+    }
+    p {
+      color: #dfe6e9;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .highlight {
+      color: #55efc4;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 40px;
+      color: #b2bec3;
+      font-size: 0.9rem;
+    }
+    hr {
+      border: 0;
+      height: 2px;
+      margin: 40px auto;
+      width: 80%;
+      background: linear-gradient(to right, #00b894, #0984e3);
+    }
+    .updated-section {
+      background: #1f2630;
+      border-left: 5px solid #00b894;
+      padding: 25px;
+      margin-top: 50px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>✅ Task 03 – Docker Compose Multi-Environment Setup</h1>
+    <h2>NulClass Internship Project</h2>
+    <p>
+      This static website is running inside a <span class="highlight">Docker container</span> managed by 
+      <span class="highlight">Docker Compose</span>.
+    </p>
+    <p>
+      By: <b>Aman Raj Raw</b> | B.Tech CSE | DevOps & Cloud Enthusiast
+    </p>
+
+    <hr>
+
+    <h3>🧠 Live Edit Demonstration</h3>
+    <p>
+      This section proves that the website updates automatically when the HTML file is edited inside 
+      <code>~/task03-docker-compose/nginx/index.html</code> without restarting Docker.
+    </p>
+    <p>
+      Simply edit this file, save it, and refresh the page to see live updates instantly 🎉
+    </p>
+
+    <div class="updated-section">
+      <h3>🚀 Below Section Added Later (Auto Updated via Docker Compose + Watchtower)</h3>
+      <p>
+        This part of the website was added after deployment to demonstrate that changes inside the 
+        <span class="highlight">index.html</span> file are automatically reflected live — 
+        without manually restarting the container. 
+        This happens because <span class="highlight">Docker Compose bind mounts</span> sync local changes, 
+        and <span class="highlight">Watchtower</span> ensures container automation and version maintenance.
+      </p>
+
+      <hr>
+
+      <h2>💻 Task 02 – Terraform EC2 Infrastructure Automation</h2>
+      <p>
+        This project demonstrates using <b>Terraform</b> to automate AWS EC2 provisioning.
+        The Terraform scripts were designed to:
+      </p>
+      <ul style="text-align:left; display:inline-block;">
+        <li>✅ Launch an EC2 instance (Free Tier t3.micro)</li>
+        <li>✅ Open ports <b>80</b> (HTTP) and <b>22</b> (SSH)</li>
+        <li>✅ Install Docker automatically via <code>user_data</code> or SSH</li>
+        <li>✅ Manage infrastructure with reusable code using <b>IaC (Infrastructure as Code)</b></li>
+      </ul>
+      <p>
+        <b>GitHub Repository:</b> 
+        <a href="https://github.com/Amanrajraw0/task02-terraform-ec2-task" style="color:#74b9ff;" target="_blank">task02-terraform-ec2-task</a>
+      </p>
+
+      <hr>
+
+      <h2>🐳 Task 03 – Docker Compose for Multi-Environment</h2>
+      <p>
+        This task demonstrates setting up a <b>multi-container environment</b> using Docker Compose.
+        It includes:
+      </p>
+      <ul style="text-align:left; display:inline-block;">
+        <li>✅ Nginx container serving this static website</li>
+        <li>✅ Watchtower container for automatic updates</li>
+        <li>✅ .env file for environment-based configuration</li>
+        <li>✅ Real-time file sync using <b>bind mounts</b></li>
+      </ul>
+      <p>
+        <b>GitHub Repository:</b> 
+        <a href="https://github.com/Amanrajraw0/task03-docker-compose" style="color:#74b9ff;" target="_blank">task03-docker-compose</a>
+      </p>
+    </div>
+  </div>
+
+  <footer>© 2025 Aman Raj Raw | NulClass Internship | DevOps · Terraform · Docker · AWS</footer>
+
+</body>
+</html>
+
+

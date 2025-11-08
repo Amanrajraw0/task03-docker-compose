@@ -1,0 +1,26 @@
+# Ignore system & editor files
+*.log
+*.tmp
+*.swp
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Terraform (if any leftovers)
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+.terraform.lock.hcl
+
+# AWS Credentials (very important)
+.aws/
+*.pem
+*.key
+*.crt
+
+# Environment files
+.env
+
+# Other temp files
+*.bak
