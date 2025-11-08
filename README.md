@@ -1,5 +1,12 @@
 # 🐳 Task 03 – Docker Compose Multi-Environment Setup
 
+![IaC](https://img.shields.io/badge/IaC-Terraform-7B42BC?style=for-the-badge&logo=terraform)
+![Cloud](https://img.shields.io/badge/Cloud-AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws)
+![Container](https://img.shields.io/badge/Container-Docker-2496ED?style=for-the-badge&logo=docker)
+![Region](https://img.shields.io/badge/Region-Europe%20(Stockholm)%20eu--north--1-007ACC?style=for-the-badge)
+![Type](https://img.shields.io/badge/Instance%20Type-t3.micro-2ECC71?style=for-the-badge)
+---
+
 ## 📘 Project Overview
 
 This project demonstrates how to use **Docker Compose** to build a **multi-container environment** for a static website deployment using **Nginx** and **Watchtower** on an AWS EC2 instance.  
